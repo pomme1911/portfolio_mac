@@ -63,12 +63,12 @@ contactForm.addEventListener('submit', (e) => {
     if (name && email && message) {
         // Here you would typically send the data to a server
         // For now, we'll just show an alert
-        alert('메시지가 성공적으로 전송되었습니다! 감사합니다.');
+        alert('Message sent successfully! Thank you.');
         
         // Reset form
         contactForm.reset();
     } else {
-        alert('모든 필드를 입력해주세요.');
+        alert('Please fill in all fields.');
     }
 });
 
